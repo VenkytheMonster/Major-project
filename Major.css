@@ -1,0 +1,29 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url(https://static.vecteezy.com/system/resources/previews/000/294/584/original/different-weather-conditions-vector.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+   background-attachment: scroll;
+}
+header,footer{
+    border: solid 2px black;
+    box-shadow: 3px 3px 3px black;
+    background-image:linear-gradient(120deg,violet,indigo,blue,green,yellow,orange,red);
+    text-align: center;
+  text-shadow:3px 3px 3px black;
+  color: red;
+}
+.col{
+    border-style: solid;
+    border-radius :10px;
+    background-color: lightblue; 
+}
+footer{
+   bottom:0;
+   left: 0;
+   position: fixed;
+   width:100%
+
+}
